@@ -35,8 +35,18 @@ export const navItems: INavData[] = [
         name: 'Bairros',
         url: '/base/navbars',
         icon: 'icon-map'
-
       },
+      {
+        name: 'Imoveis',
+        url: '/icons/coreui-icons',
+        icon: 'icon-star'
+      },
+      {
+        name: 'Contribuintes',
+        url: '/icons/coreui-icons',
+        icon: 'icon-people'
+      
+      }
     ]
   },
   {
@@ -48,18 +58,6 @@ export const navItems: INavData[] = [
         name: 'Terrenos',
         url: '/buttons/buttons',
         icon: 'icon-crop'
-      }
-    ]
-  },
-  {
-    name: 'Contribuintes',
-    url: '/icons',
-    icon: 'icon-people',
-    children: [
-      {
-        name: 'Imoveis',
-        url: '/icons/coreui-icons',
-        icon: 'icon-star'
       }
     ]
   }
